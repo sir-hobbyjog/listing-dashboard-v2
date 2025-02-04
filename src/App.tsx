@@ -15,29 +15,29 @@ const stats = [
   {
     id: 1,
     name: 'Days on Market',
-    value: '12',
+    value: '10',
     icon: Clock,
-    description: 'Listed on Mar 4, 2024'
+    description: 'Listed on Jan 25, 2025'
   },
   {
     id: 2,
     name: 'List Price',
-    value: '$749,900',
+    value: '$729,000',
     icon: DollarSign,
-    description: 'Market average: $725,000'
+    description: 'Market average: $729,000'
   },
   {
     id: 3,
     name: 'Total Showings',
-    value: '24',
+    value: '4',
     icon: Users,
-    description: '6 scheduled this week'
+    description: '2 scheduled this week'
   },
   {
     id: 4,
     name: 'MLS Views',
-    value: '2,847',
-    change: '+14.5%',
+    value: '18,151',
+    change: '+209%',
     icon: Eye,
     trend: 'up',
     description: 'Last 30 days'
@@ -45,8 +45,8 @@ const stats = [
   {
     id: 5,
     name: 'Platform Favorites',
-    value: '486',
-    change: '+28.4%',
+    value: '62',
+    change: '+104%',
     icon: Heart,
     trend: 'up',
     description: 'Across all platforms'
@@ -54,8 +54,8 @@ const stats = [
   {
     id: 6,
     name: 'Buyer Leads',
-    value: '18',
-    change: '+5',
+    value: '2',
+    change: '+2',
     icon: TrendingUp,
     trend: 'up',
     description: 'Qualified buyers'
@@ -72,8 +72,8 @@ function App() {
             <div className="flex items-center">
               <Building2 className="h-8 w-8 text-indigo-600" />
               <div className="ml-3">
-                <h1 className="text-2xl font-bold text-gray-900">Seller Dashboard</h1>
-                <p className="text-sm text-gray-500">742 Evergreen Terrace</p>
+                <h1 className="text-2xl font-bold text-gray-900">Hamilton Dashboard</h1>
+                <p className="text-sm text-gray-500">1429 N On The Green Way</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -125,15 +125,15 @@ function App() {
               <div className="mt-4 space-y-4">
                 <div className="flex items-center">
                   <Users className="h-5 w-5 text-purple-500" />
-                  <p className="ml-3 text-sm text-gray-600">New showing scheduled for tomorrow at 2 PM</p>
+                  <p className="ml-3 text-sm text-gray-600">New showing scheduled for tomorrow at 9:30 AM</p>
                 </div>
                 <div className="flex items-center">
                   <Heart className="h-5 w-5 text-red-500" />
-                  <p className="ml-3 text-sm text-gray-600">Added to 5 new buyer's favorite lists today</p>
+                  <p className="ml-3 text-sm text-gray-600">Added to 7 new buyer's favorite lists today</p>
                 </div>
                 <div className="flex items-center">
                   <Eye className="h-5 w-5 text-blue-500" />
-                  <p className="ml-3 text-sm text-gray-600">125 new MLS views in the last 24 hours</p>
+                  <p className="ml-3 text-sm text-gray-600">1203 new MLS views in the last 24 hours</p>
                 </div>
                 <div className="flex items-center">
                   <TrendingUp className="h-5 w-5 text-green-500" />
@@ -150,11 +150,11 @@ function App() {
               <div className="mt-4 space-y-4">
                 <div className="flex items-center">
                   <Home className="h-5 w-5 text-indigo-500" />
-                  <p className="ml-3 text-sm text-gray-600">Your home is priced 3% above market average</p>
+                  <p className="ml-3 text-sm text-gray-600">Your home is priced 0% above market average</p>
                 </div>
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-orange-500" />
-                  <p className="ml-3 text-sm text-gray-600">Average DOM in your area: 18 days</p>
+                  <p className="ml-3 text-sm text-gray-600">Average DOM in your area: 33 days</p>
                 </div>
                 <div className="flex items-center">
                   <DollarSign className="h-5 w-5 text-green-500" />
